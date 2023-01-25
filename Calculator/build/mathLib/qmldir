@@ -1,0 +1,5 @@
+module mathLib
+typeinfo QMath.qmltypes
+prefer :/mathLib/
+MyButton 1.0 components/MyButton.qml
+

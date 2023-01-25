@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QMath",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QMath::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QMath-Debug-47ef48e07c8e2dc6e110.json",
+					"name" : "QMath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QMath_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QMath_autogen-Debug-acf39afc28f158dee729.json",
+					"name" : "QMath_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QMath_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QMath_automoc_json_extraction-Debug-9711209d766c26e57671.json",
+					"name" : "QMath_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QMath_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QMath_other_files-Debug-7652906ccd2b7583fe49.json",
+					"name" : "QMath_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QMath_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QMath_qmlimportscan-Debug-9fb908264440f0a811dd.json",
+					"name" : "QMath_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QMath_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QMath_qmllint-Debug-0f3b128317518ba6ea64.json",
+					"name" : "QMath_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QMath_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QMath_qmllint_json-Debug-b1a4c9dff0a015e060f3.json",
+					"name" : "QMath_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QMath_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QMath_qmltyperegistration-Debug-fe4d90ebaf82b4eb2985.json",
+					"name" : "QMath_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QMath_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QMath_tooling-Debug-374185d3db499ca2b54d.json",
+					"name" : "QMath_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-f5b1ff5e43df3923ce69.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-e946fed204cecab3953d.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-c2b8944cc8d5b9ae6305.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build",
+		"source" : "C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

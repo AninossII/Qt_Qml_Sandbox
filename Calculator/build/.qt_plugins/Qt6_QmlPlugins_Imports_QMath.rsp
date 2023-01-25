@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator
+-cmake-output
+-output-file
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake
+-importPath
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/mathLib
+-importPath
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build
+-importPath
+D:/CL/Qt/6.4.2/mingw_64/./qml
+-qrcFiles
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc

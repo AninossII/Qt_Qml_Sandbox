@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/mathLib">
+    <file alias="qmldir">C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/mathLib/qmldir</file>
+  </qresource>
+</RCC>
+

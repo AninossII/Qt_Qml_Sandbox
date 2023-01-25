@@ -1,0 +1,14 @@
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/QMath.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/QMath_automoc_json_extraction.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/QMath_qmltyperegistration.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/all_qmltyperegistrations.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/QMath_other_files.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/QMath_qmllint.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/QMath_qmllint_json.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/all_qmllint.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/all_qmllint_json.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/QMath_tooling.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/QMath_qmlimportscan.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/edit_cache.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/QMath_autogen.dir

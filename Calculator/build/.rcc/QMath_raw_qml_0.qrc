@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/mathLib/">
+    <file alias="interface/main.qml">C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/interface/main.qml</file>
+    <file alias="components/MyButton.qml">C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/components/MyButton.qml</file>
+  </qresource>
+</RCC>
+
