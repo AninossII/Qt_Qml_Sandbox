@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\CL\cmake\bin\cmake.exe
+CMAKE_COMMAND = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\CL\cmake\bin\cmake.exe -E rm -f
+RM = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator
+CMAKE_SOURCE_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build
+CMAKE_BINARY_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build
 
 # Utility rule file for QMath_qmlimportscan.
 
@@ -67,13 +67,13 @@ include CMakeFiles/QMath_qmlimportscan.dir/progress.make
 
 CMakeFiles/QMath_qmlimportscan: .qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake
 
-.qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake: D:/CL/Qt/6.4.2/mingw_64/bin/qmlimportscanner.exe
+.qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake: C:/CL/Qt/6.4.1/mingw_64/bin/qmlimportscanner.exe
 .qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake: .rcc/qmake_mathLib.qrc
 .qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake: .rcc/QMath_raw_qml_0.qrc
-.qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/interface/main.qml
-.qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/components/MyButton.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for QMath"
-	cd /d C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator && call C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.qt\bin\qt_setup_tool_path.bat D:/CL/Qt/6.4.2/mingw_64/./bin/qmlimportscanner.exe @C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.qt_plugins/Qt6_QmlPlugins_Imports_QMath.rsp
+.qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/interface/main.qml
+.qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/components/MyButton.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for QMath"
+	cd /d C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator && call C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.qt\bin\qt_setup_tool_path.bat C:/CL/Qt/6.4.1/mingw_64/./bin/qmlimportscanner.exe @C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.qt_plugins/Qt6_QmlPlugins_Imports_QMath.rsp
 
 QMath_qmlimportscan: .qt_plugins/Qt6_QmlPlugins_Imports_QMath.cmake
 QMath_qmlimportscan: CMakeFiles/QMath_qmlimportscan
@@ -89,6 +89,6 @@ CMakeFiles/QMath_qmlimportscan.dir/clean:
 .PHONY : CMakeFiles/QMath_qmlimportscan.dir/clean
 
 CMakeFiles/QMath_qmlimportscan.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles\QMath_qmlimportscan.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles\QMath_qmlimportscan.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/QMath_qmlimportscan.dir/depend
 

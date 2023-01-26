@@ -16,19 +16,10 @@ Rectangle {
 
         Text{
             anchors.centerIn: parent
-            text: text
+            text: myText
             font.pixelSize: 25
             font.bold : true
         }
 
-        MouseArea {
-            anchors.fill: parent
-            hoverEnabled: false
-            onEntered: {}
-            onExited: {}
-            onWheel: {}
-            onClicked: {
-                console.log("Clicked!")
-            }
-        }
+
     }

@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\CL\cmake\bin\cmake.exe
+CMAKE_COMMAND = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\CL\cmake\bin\cmake.exe -E rm -f
+RM = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator
+CMAKE_SOURCE_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build
+CMAKE_BINARY_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/QMath.dir/depend.make
@@ -68,185 +68,185 @@ include CMakeFiles/QMath.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/QMath.dir/flags.make
 
-meta_types/qt6qmath_debug_metatypes.json.gen: D:/CL/Qt/6.4.2/mingw_64/./bin/moc.exe
+meta_types/qt6qmath_debug_metatypes.json.gen: C:/CL/Qt/6.4.1/mingw_64/./bin/moc.exe
 meta_types/qt6qmath_debug_metatypes.json.gen: meta_types/QMath_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running moc --collect-json for target QMath"
-	D:\CL\Qt\6.4.2\mingw_64\bin\moc.exe -o C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json.gen --collect-json @C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/meta_types/QMath_json_file_list.txt
-	D:\CL\cmake\bin\cmake.exe -E copy_if_different C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json.gen C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running moc --collect-json for target QMath"
+	C:\CL\Qt\6.4.1\mingw_64\bin\moc.exe -o C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json.gen --collect-json @C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/meta_types/QMath_json_file_list.txt
+	C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E copy_if_different C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json.gen C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json
 
 meta_types/qt6qmath_debug_metatypes.json: meta_types/qt6qmath_debug_metatypes.json.gen
 	@$(CMAKE_COMMAND) -E touch_nocreate meta_types\qt6qmath_debug_metatypes.json
 
 qmath_qmltyperegistrations.cpp: qmltypes/QMath_foreign_types.txt
 qmath_qmltyperegistrations.cpp: meta_types/qt6qmath_debug_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/./bin/qmltyperegistrar.exe
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6core_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6qml_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6network_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6gui_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6quick_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6opengl_relwithdebinfo_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target QMath"
-	call .qt\bin\qt_setup_tool_path.bat D:/CL/Qt/6.4.2/mingw_64/./bin/qmltyperegistrar.exe --generate-qmltypes=C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/mathLib/QMath.qmltypes --import-name=mathLib --major-version=1 --minor-version=0 @C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/qmltypes/QMath_foreign_types.txt -o C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/qmath_qmltyperegistrations.cpp C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json
-	D:\CL\cmake\bin\cmake.exe -E make_directory C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.generated
-	D:\CL\cmake\bin\cmake.exe -E touch C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.generated/QMath.qmltypes
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/./bin/qmltyperegistrar.exe
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6core_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6qml_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6network_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6gui_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6quick_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6opengl_relwithdebinfo_metatypes.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target QMath"
+	call .qt\bin\qt_setup_tool_path.bat C:/CL/Qt/6.4.1/mingw_64/./bin/qmltyperegistrar.exe --generate-qmltypes=C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/mathLib/QMath.qmltypes --import-name=mathLib --major-version=1 --minor-version=0 @C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/qmltypes/QMath_foreign_types.txt -o C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/qmath_qmltyperegistrations.cpp C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json
+	C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.generated
+	C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.generated/QMath.qmltypes
 
 mathLib/QMath.qmltypes: qmath_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate mathLib\QMath.qmltypes
 
 .rcc/qrc_qmake_mathLib.cpp: mathLib/qmldir
 .rcc/qrc_qmake_mathLib.cpp: .rcc/qmake_mathLib.qrc
-.rcc/qrc_qmake_mathLib.cpp: D:/CL/Qt/6.4.2/mingw_64/./bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running rcc for resource qmake_mathLib"
-	D:\CL\Qt\6.4.2\mingw_64\bin\rcc.exe --output C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qrc_qmake_mathLib.cpp --name qmake_mathLib C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc --no-zstd
+.rcc/qrc_qmake_mathLib.cpp: C:/CL/Qt/6.4.1/mingw_64/./bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running rcc for resource qmake_mathLib"
+	C:\CL\Qt\6.4.1\mingw_64\bin\rcc.exe --output C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qrc_qmake_mathLib.cpp --name qmake_mathLib C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc --no-zstd
 
-.rcc/qmlcache/QMath_interface/main_qml.cpp: D:/CL/Qt/6.4.2/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/QMath_interface/main_qml.cpp: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/interface/main.qml
+.rcc/qmlcache/QMath_interface/main_qml.cpp: C:/CL/Qt/6.4.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/QMath_interface/main_qml.cpp: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/interface/main.qml
 .rcc/qmlcache/QMath_interface/main_qml.cpp: .rcc/qmake_mathLib.qrc
 .rcc/qmlcache/QMath_interface/main_qml.cpp: .rcc/QMath_raw_qml_0.qrc
 .rcc/qmlcache/QMath_interface/main_qml.cpp: mathLib/QMath.qmltypes
 .rcc/qmlcache/QMath_interface/main_qml.cpp: mathLib/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/QMath_interface/main_qml.cpp"
-	D:\CL\cmake\bin\cmake.exe -E make_directory C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmlcache/QMath_interface
-	call .qt\bin\qt_setup_tool_path.bat D:/CL/Qt/6.4.2/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /mathLib/interface/main.qml -I C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build -I D:/CL/Qt/6.4.2/mingw_64/./qml -i C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/mathLib/qmldir --resource C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc --resource C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc -o C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmlcache/QMath_interface/main_qml.cpp C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/interface/main.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/QMath_interface/main_qml.cpp"
+	C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmlcache/QMath_interface
+	call .qt\bin\qt_setup_tool_path.bat C:/CL/Qt/6.4.1/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /mathLib/interface/main.qml -I C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build -I C:/CL/Qt/6.4.1/mingw_64/./qml -i C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/mathLib/qmldir --resource C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc --resource C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc -o C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmlcache/QMath_interface/main_qml.cpp C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/interface/main.qml
 
-.rcc/qmlcache/QMath_components/MyButton_qml.cpp: D:/CL/Qt/6.4.2/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/QMath_components/MyButton_qml.cpp: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/components/MyButton.qml
+.rcc/qmlcache/QMath_components/MyButton_qml.cpp: C:/CL/Qt/6.4.1/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/QMath_components/MyButton_qml.cpp: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/components/MyButton.qml
 .rcc/qmlcache/QMath_components/MyButton_qml.cpp: .rcc/qmake_mathLib.qrc
 .rcc/qmlcache/QMath_components/MyButton_qml.cpp: .rcc/QMath_raw_qml_0.qrc
 .rcc/qmlcache/QMath_components/MyButton_qml.cpp: mathLib/QMath.qmltypes
 .rcc/qmlcache/QMath_components/MyButton_qml.cpp: mathLib/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/QMath_components/MyButton_qml.cpp"
-	D:\CL\cmake\bin\cmake.exe -E make_directory C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmlcache/QMath_components
-	call .qt\bin\qt_setup_tool_path.bat D:/CL/Qt/6.4.2/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /mathLib/components/MyButton.qml -I C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build -I D:/CL/Qt/6.4.2/mingw_64/./qml -i C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/mathLib/qmldir --resource C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc --resource C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc -o C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/components/MyButton.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/QMath_components/MyButton_qml.cpp"
+	C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmlcache/QMath_components
+	call .qt\bin\qt_setup_tool_path.bat C:/CL/Qt/6.4.1/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /mathLib/components/MyButton.qml -I C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build -I C:/CL/Qt/6.4.1/mingw_64/./qml -i C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/mathLib/qmldir --resource C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc --resource C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc -o C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/components/MyButton.qml
 
-.rcc/qrc_QMath_raw_qml_0.cpp: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/interface/main.qml
-.rcc/qrc_QMath_raw_qml_0.cpp: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/components/MyButton.qml
+.rcc/qrc_QMath_raw_qml_0.cpp: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/interface/main.qml
+.rcc/qrc_QMath_raw_qml_0.cpp: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/components/MyButton.qml
 .rcc/qrc_QMath_raw_qml_0.cpp: .rcc/QMath_raw_qml_0.qrc
-.rcc/qrc_QMath_raw_qml_0.cpp: D:/CL/Qt/6.4.2/mingw_64/./bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource QMath_raw_qml_0"
-	D:\CL\Qt\6.4.2\mingw_64\bin\rcc.exe --output C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qrc_QMath_raw_qml_0.cpp --name QMath_raw_qml_0 C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc --no-zstd
+.rcc/qrc_QMath_raw_qml_0.cpp: C:/CL/Qt/6.4.1/mingw_64/./bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource QMath_raw_qml_0"
+	C:\CL\Qt\6.4.1\mingw_64\bin\rcc.exe --output C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qrc_QMath_raw_qml_0.cpp --name QMath_raw_qml_0 C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc --no-zstd
 
 CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.obj: CMakeFiles/QMath.dir/flags.make
 CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.obj: CMakeFiles/QMath.dir/includes_CXX.rsp
 CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.obj: QMath_autogen/mocs_compilation.cpp
 CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.obj: CMakeFiles/QMath.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.obj"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\QMath.dir\QMath_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\QMath.dir\QMath_autogen\mocs_compilation.cpp.obj -c C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\QMath_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.obj"
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\QMath.dir\QMath_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\QMath.dir\QMath_autogen\mocs_compilation.cpp.obj -c C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\QMath_autogen\mocs_compilation.cpp
 
 CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.i"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\QMath_autogen\mocs_compilation.cpp > CMakeFiles\QMath.dir\QMath_autogen\mocs_compilation.cpp.i
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\QMath_autogen\mocs_compilation.cpp > CMakeFiles\QMath.dir\QMath_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QMath.dir/QMath_autogen/mocs_compilation.cpp.s"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\QMath_autogen\mocs_compilation.cpp -o CMakeFiles\QMath.dir\QMath_autogen\mocs_compilation.cpp.s
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\QMath_autogen\mocs_compilation.cpp -o CMakeFiles\QMath.dir\QMath_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/QMath.dir/src/main.cpp.obj: CMakeFiles/QMath.dir/flags.make
 CMakeFiles/QMath.dir/src/main.cpp.obj: CMakeFiles/QMath.dir/includes_CXX.rsp
-CMakeFiles/QMath.dir/src/main.cpp.obj: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/src/main.cpp
+CMakeFiles/QMath.dir/src/main.cpp.obj: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/src/main.cpp
 CMakeFiles/QMath.dir/src/main.cpp.obj: CMakeFiles/QMath.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/QMath.dir/src/main.cpp.obj"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/src/main.cpp.obj -MF CMakeFiles\QMath.dir\src\main.cpp.obj.d -o CMakeFiles\QMath.dir\src\main.cpp.obj -c C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/QMath.dir/src/main.cpp.obj"
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/src/main.cpp.obj -MF CMakeFiles\QMath.dir\src\main.cpp.obj.d -o CMakeFiles\QMath.dir\src\main.cpp.obj -c C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\src\main.cpp
 
 CMakeFiles/QMath.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QMath.dir/src/main.cpp.i"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\src\main.cpp > CMakeFiles\QMath.dir\src\main.cpp.i
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\src\main.cpp > CMakeFiles\QMath.dir\src\main.cpp.i
 
 CMakeFiles/QMath.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QMath.dir/src/main.cpp.s"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\src\main.cpp -o CMakeFiles\QMath.dir\src\main.cpp.s
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\src\main.cpp -o CMakeFiles\QMath.dir\src\main.cpp.s
 
 CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.obj: CMakeFiles/QMath.dir/flags.make
 CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.obj: CMakeFiles/QMath.dir/includes_CXX.rsp
 CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.obj: qmath_qmltyperegistrations.cpp
 CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.obj: CMakeFiles/QMath.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.obj"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -MD -MT CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.obj -MF CMakeFiles\QMath.dir\qmath_qmltyperegistrations.cpp.obj.d -o CMakeFiles\QMath.dir\qmath_qmltyperegistrations.cpp.obj -c C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\qmath_qmltyperegistrations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.obj"
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -MD -MT CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.obj -MF CMakeFiles\QMath.dir\qmath_qmltyperegistrations.cpp.obj.d -o CMakeFiles\QMath.dir\qmath_qmltyperegistrations.cpp.obj -c C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\qmath_qmltyperegistrations.cpp
 
 CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.i"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -E C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\qmath_qmltyperegistrations.cpp > CMakeFiles\QMath.dir\qmath_qmltyperegistrations.cpp.i
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -E C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\qmath_qmltyperegistrations.cpp > CMakeFiles\QMath.dir\qmath_qmltyperegistrations.cpp.i
 
 CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QMath.dir/qmath_qmltyperegistrations.cpp.s"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -S C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\qmath_qmltyperegistrations.cpp -o CMakeFiles\QMath.dir\qmath_qmltyperegistrations.cpp.s
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -S C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\qmath_qmltyperegistrations.cpp -o CMakeFiles\QMath.dir\qmath_qmltyperegistrations.cpp.s
 
 CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.obj: CMakeFiles/QMath.dir/flags.make
 CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.obj: CMakeFiles/QMath.dir/includes_CXX.rsp
 CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.obj: .rcc/qrc_qmake_mathLib.cpp
 CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.obj: CMakeFiles/QMath.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.obj"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.obj -MF CMakeFiles\QMath.dir\build\.rcc\qrc_qmake_mathLib.cpp.obj.d -o CMakeFiles\QMath.dir\build\.rcc\qrc_qmake_mathLib.cpp.obj -c C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qrc_qmake_mathLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.obj"
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.obj -MF CMakeFiles\QMath.dir\build\.rcc\qrc_qmake_mathLib.cpp.obj.d -o CMakeFiles\QMath.dir\build\.rcc\qrc_qmake_mathLib.cpp.obj -c C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qrc_qmake_mathLib.cpp
 
 CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.i"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qrc_qmake_mathLib.cpp > CMakeFiles\QMath.dir\build\.rcc\qrc_qmake_mathLib.cpp.i
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qrc_qmake_mathLib.cpp > CMakeFiles\QMath.dir\build\.rcc\qrc_qmake_mathLib.cpp.i
 
 CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QMath.dir/build/.rcc/qrc_qmake_mathLib.cpp.s"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qrc_qmake_mathLib.cpp -o CMakeFiles\QMath.dir\build\.rcc\qrc_qmake_mathLib.cpp.s
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qrc_qmake_mathLib.cpp -o CMakeFiles\QMath.dir\build\.rcc\qrc_qmake_mathLib.cpp.s
 
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.obj: CMakeFiles/QMath.dir/flags.make
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.obj: CMakeFiles/QMath.dir/includes_CXX.rsp
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.obj: .rcc/qmlcache/QMath_qmlcache_loader.cpp
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.obj: CMakeFiles/QMath.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.obj"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.obj -MF CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp.obj.d -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp.obj -c C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.obj"
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.obj -MF CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp.obj.d -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp.obj -c C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp
 
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.i"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp > CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp.i
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp > CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp.i
 
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp.s"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp.s
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_qmlcache_loader.cpp.s
 
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.obj: CMakeFiles/QMath.dir/flags.make
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.obj: CMakeFiles/QMath.dir/includes_CXX.rsp
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.obj: .rcc/qmlcache/QMath_interface/main_qml.cpp
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.obj: CMakeFiles/QMath.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.obj"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.obj -MF CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_interface\main_qml.cpp.obj.d -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_interface\main_qml.cpp.obj -c C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qmlcache\QMath_interface\main_qml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.obj"
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.obj -MF CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_interface\main_qml.cpp.obj.d -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_interface\main_qml.cpp.obj -c C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qmlcache\QMath_interface\main_qml.cpp
 
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.i"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qmlcache\QMath_interface\main_qml.cpp > CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_interface\main_qml.cpp.i
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qmlcache\QMath_interface\main_qml.cpp > CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_interface\main_qml.cpp.i
 
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp.s"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qmlcache\QMath_interface\main_qml.cpp -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_interface\main_qml.cpp.s
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qmlcache\QMath_interface\main_qml.cpp -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_interface\main_qml.cpp.s
 
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.obj: CMakeFiles/QMath.dir/flags.make
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.obj: CMakeFiles/QMath.dir/includes_CXX.rsp
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.obj: .rcc/qmlcache/QMath_components/MyButton_qml.cpp
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.obj: CMakeFiles/QMath.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.obj"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.obj -MF CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp.obj.d -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp.obj -c C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.obj"
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.obj -MF CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp.obj.d -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp.obj -c C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp
 
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.i"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp > CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp.i
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp > CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp.i
 
 CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.s"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp.s
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp -o CMakeFiles\QMath.dir\build\.rcc\qmlcache\QMath_components\MyButton_qml.cpp.s
 
 CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.obj: CMakeFiles/QMath.dir/flags.make
 CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.obj: CMakeFiles/QMath.dir/includes_CXX.rsp
 CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.obj: .rcc/qrc_QMath_raw_qml_0.cpp
 CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.obj: CMakeFiles/QMath.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.obj"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.obj -MF CMakeFiles\QMath.dir\build\.rcc\qrc_QMath_raw_qml_0.cpp.obj.d -o CMakeFiles\QMath.dir\build\.rcc\qrc_QMath_raw_qml_0.cpp.obj -c C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qrc_QMath_raw_qml_0.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.obj"
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.obj -MF CMakeFiles\QMath.dir\build\.rcc\qrc_QMath_raw_qml_0.cpp.obj.d -o CMakeFiles\QMath.dir\build\.rcc\qrc_QMath_raw_qml_0.cpp.obj -c C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qrc_QMath_raw_qml_0.cpp
 
 CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.i"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qrc_QMath_raw_qml_0.cpp > CMakeFiles\QMath.dir\build\.rcc\qrc_QMath_raw_qml_0.cpp.i
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qrc_QMath_raw_qml_0.cpp > CMakeFiles\QMath.dir\build\.rcc\qrc_QMath_raw_qml_0.cpp.i
 
 CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.s"
-	D:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.rcc\qrc_QMath_raw_qml_0.cpp -o CMakeFiles\QMath.dir\build\.rcc\qrc_QMath_raw_qml_0.cpp.s
+	C:\CL\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.rcc\qrc_QMath_raw_qml_0.cpp -o CMakeFiles\QMath.dir\build\.rcc\qrc_QMath_raw_qml_0.cpp.s
 
 # Object files for target QMath
 QMath_OBJECTS = \
@@ -271,17 +271,17 @@ QMath.exe: CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_interface/main_qml.cpp
 QMath.exe: CMakeFiles/QMath.dir/build/.rcc/qmlcache/QMath_components/MyButton_qml.cpp.obj
 QMath.exe: CMakeFiles/QMath.dir/build/.rcc/qrc_QMath_raw_qml_0.cpp.obj
 QMath.exe: CMakeFiles/QMath.dir/build.make
-QMath.exe: D:/CL/Qt/6.4.2/mingw_64/lib/libQt6Quick.a
-QMath.exe: D:/CL/Qt/6.4.2/mingw_64/lib/libQt6QmlModels.a
-QMath.exe: D:/CL/Qt/6.4.2/mingw_64/lib/libQt6Qml.a
-QMath.exe: D:/CL/Qt/6.4.2/mingw_64/lib/libQt6Network.a
-QMath.exe: D:/CL/Qt/6.4.2/mingw_64/lib/libQt6OpenGL.a
-QMath.exe: D:/CL/Qt/6.4.2/mingw_64/lib/libQt6Gui.a
-QMath.exe: D:/CL/Qt/6.4.2/mingw_64/lib/libQt6Core.a
+QMath.exe: C:/CL/Qt/6.4.1/mingw_64/lib/libQt6Quick.a
+QMath.exe: C:/CL/Qt/6.4.1/mingw_64/lib/libQt6QmlModels.a
+QMath.exe: C:/CL/Qt/6.4.1/mingw_64/lib/libQt6Qml.a
+QMath.exe: C:/CL/Qt/6.4.1/mingw_64/lib/libQt6Network.a
+QMath.exe: C:/CL/Qt/6.4.1/mingw_64/lib/libQt6OpenGL.a
+QMath.exe: C:/CL/Qt/6.4.1/mingw_64/lib/libQt6Gui.a
+QMath.exe: C:/CL/Qt/6.4.1/mingw_64/lib/libQt6Core.a
 QMath.exe: CMakeFiles/QMath.dir/linklibs.rsp
 QMath.exe: CMakeFiles/QMath.dir/objects1.rsp
 QMath.exe: CMakeFiles/QMath.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable QMath.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable QMath.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\QMath.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -300,6 +300,6 @@ CMakeFiles/QMath.dir/depend: mathLib/QMath.qmltypes
 CMakeFiles/QMath.dir/depend: meta_types/qt6qmath_debug_metatypes.json
 CMakeFiles/QMath.dir/depend: meta_types/qt6qmath_debug_metatypes.json.gen
 CMakeFiles/QMath.dir/depend: qmath_qmltyperegistrations.cpp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles\QMath.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles\QMath.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/QMath.dir/depend
 

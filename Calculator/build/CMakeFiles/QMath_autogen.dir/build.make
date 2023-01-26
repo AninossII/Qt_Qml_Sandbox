@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\CL\cmake\bin\cmake.exe
+CMAKE_COMMAND = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\CL\cmake\bin\cmake.exe -E rm -f
+RM = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator
+CMAKE_SOURCE_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build
+CMAKE_BINARY_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build
 
 # Utility rule file for QMath_autogen.
 
@@ -66,15 +66,15 @@ include CMakeFiles/QMath_autogen.dir/compiler_depend.make
 include CMakeFiles/QMath_autogen.dir/progress.make
 
 CMakeFiles/QMath_autogen: .rcc/qmlcache/QMath_qmlcache_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target QMath"
-	D:\CL\cmake\bin\cmake.exe -E cmake_autogen C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/CMakeFiles/QMath_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target QMath"
+	C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/CMakeFiles/QMath_autogen.dir/AutogenInfo.json Debug
 
-.rcc/qmlcache/QMath_qmlcache_loader.cpp: D:/CL/Qt/6.4.2/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/QMath_qmlcache_loader.cpp: C:/CL/Qt/6.4.1/mingw_64/bin/qmlcachegen.exe
 .rcc/qmlcache/QMath_qmlcache_loader.cpp: .rcc/qmlcache/QMath_qml_loader_file_list.rsp
 .rcc/qmlcache/QMath_qmlcache_loader.cpp: .rcc/qmake_mathLib.qrc
 .rcc/qmlcache/QMath_qmlcache_loader.cpp: .rcc/QMath_raw_qml_0.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/QMath_qmlcache_loader.cpp"
-	call .qt\bin\qt_setup_tool_path.bat D:/CL/Qt/6.4.2/mingw_64/./bin/qmlcachegen.exe --resource-name qmlcache_QMath --resource C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc --resource C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc -o C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp @C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmlcache/QMath_qml_loader_file_list.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/QMath_qmlcache_loader.cpp"
+	call .qt\bin\qt_setup_tool_path.bat C:/CL/Qt/6.4.1/mingw_64/./bin/qmlcachegen.exe --resource-name qmlcache_QMath --resource C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc --resource C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc -o C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmlcache/QMath_qmlcache_loader.cpp @C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmlcache/QMath_qml_loader_file_list.rsp
 
 QMath_autogen: .rcc/qmlcache/QMath_qmlcache_loader.cpp
 QMath_autogen: CMakeFiles/QMath_autogen
@@ -90,6 +90,6 @@ CMakeFiles/QMath_autogen.dir/clean:
 .PHONY : CMakeFiles/QMath_autogen.dir/clean
 
 CMakeFiles/QMath_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles\QMath_autogen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles\QMath_autogen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/QMath_autogen.dir/depend
 

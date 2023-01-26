@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\CL\cmake\bin\cmake.exe
+CMAKE_COMMAND = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\CL\cmake\bin\cmake.exe -E rm -f
+RM = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator
+CMAKE_SOURCE_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build
+CMAKE_BINARY_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build
 
 # Utility rule file for all_qmltyperegistrations.
 
@@ -77,6 +77,6 @@ CMakeFiles/all_qmltyperegistrations.dir/clean:
 .PHONY : CMakeFiles/all_qmltyperegistrations.dir/clean
 
 CMakeFiles/all_qmltyperegistrations.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles\all_qmltyperegistrations.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles\all_qmltyperegistrations.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/all_qmltyperegistrations.dir/depend
 

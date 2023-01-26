@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\CL\cmake\bin\cmake.exe
+CMAKE_COMMAND = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\CL\cmake\bin\cmake.exe -E rm -f
+RM = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator
+CMAKE_SOURCE_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build
+CMAKE_BINARY_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build
 
 # Utility rule file for QMath_qmltyperegistration.
 
@@ -70,27 +70,27 @@ CMakeFiles/QMath_qmltyperegistration: mathLib/QMath.qmltypes
 
 qmath_qmltyperegistrations.cpp: qmltypes/QMath_foreign_types.txt
 qmath_qmltyperegistrations.cpp: meta_types/qt6qmath_debug_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/./bin/qmltyperegistrar.exe
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6core_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6qml_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6network_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6gui_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6quick_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json
-qmath_qmltyperegistrations.cpp: D:/CL/Qt/6.4.2/mingw_64/lib/metatypes/qt6opengl_relwithdebinfo_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target QMath"
-	call .qt\bin\qt_setup_tool_path.bat D:/CL/Qt/6.4.2/mingw_64/./bin/qmltyperegistrar.exe --generate-qmltypes=C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/mathLib/QMath.qmltypes --import-name=mathLib --major-version=1 --minor-version=0 @C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/qmltypes/QMath_foreign_types.txt -o C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/qmath_qmltyperegistrations.cpp C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json
-	D:\CL\cmake\bin\cmake.exe -E make_directory C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.generated
-	D:\CL\cmake\bin\cmake.exe -E touch C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.generated/QMath.qmltypes
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/./bin/qmltyperegistrar.exe
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6core_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6qml_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6network_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6gui_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6quick_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json
+qmath_qmltyperegistrations.cpp: C:/CL/Qt/6.4.1/mingw_64/lib/metatypes/qt6opengl_relwithdebinfo_metatypes.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target QMath"
+	call .qt\bin\qt_setup_tool_path.bat C:/CL/Qt/6.4.1/mingw_64/./bin/qmltyperegistrar.exe --generate-qmltypes=C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/mathLib/QMath.qmltypes --import-name=mathLib --major-version=1 --minor-version=0 @C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/qmltypes/QMath_foreign_types.txt -o C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/qmath_qmltyperegistrations.cpp C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json
+	C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.generated
+	C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.generated/QMath.qmltypes
 
 mathLib/QMath.qmltypes: qmath_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate mathLib\QMath.qmltypes
 
-meta_types/qt6qmath_debug_metatypes.json.gen: D:/CL/Qt/6.4.2/mingw_64/./bin/moc.exe
+meta_types/qt6qmath_debug_metatypes.json.gen: C:/CL/Qt/6.4.1/mingw_64/./bin/moc.exe
 meta_types/qt6qmath_debug_metatypes.json.gen: meta_types/QMath_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running moc --collect-json for target QMath"
-	D:\CL\Qt\6.4.2\mingw_64\bin\moc.exe -o C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json.gen --collect-json @C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/meta_types/QMath_json_file_list.txt
-	D:\CL\cmake\bin\cmake.exe -E copy_if_different C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json.gen C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running moc --collect-json for target QMath"
+	C:\CL\Qt\6.4.1\mingw_64\bin\moc.exe -o C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json.gen --collect-json @C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/meta_types/QMath_json_file_list.txt
+	C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E copy_if_different C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json.gen C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/meta_types/qt6qmath_debug_metatypes.json
 
 meta_types/qt6qmath_debug_metatypes.json: meta_types/qt6qmath_debug_metatypes.json.gen
 	@$(CMAKE_COMMAND) -E touch_nocreate meta_types\qt6qmath_debug_metatypes.json
@@ -112,6 +112,6 @@ CMakeFiles/QMath_qmltyperegistration.dir/clean:
 .PHONY : CMakeFiles/QMath_qmltyperegistration.dir/clean
 
 CMakeFiles/QMath_qmltyperegistration.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles\QMath_qmltyperegistration.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles\QMath_qmltyperegistration.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/QMath_qmltyperegistration.dir/depend
 

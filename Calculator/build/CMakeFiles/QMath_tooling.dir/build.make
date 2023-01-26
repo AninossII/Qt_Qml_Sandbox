@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\CL\cmake\bin\cmake.exe
+CMAKE_COMMAND = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\CL\cmake\bin\cmake.exe -E rm -f
+RM = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator
+CMAKE_SOURCE_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build
+CMAKE_BINARY_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build
 
 # Utility rule file for QMath_tooling.
 
@@ -65,13 +65,13 @@ include CMakeFiles/QMath_tooling.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/QMath_tooling.dir/progress.make
 
-mathLib/interface/main.qml: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/interface/main.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating mathLib/interface/main.qml"
-	cd /d C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator && D:\CL\cmake\bin\cmake.exe -E copy C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/interface/main.qml C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/mathLib/interface/main.qml
+mathLib/interface/main.qml: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/interface/main.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating mathLib/interface/main.qml"
+	cd /d C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator && C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/interface/main.qml C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/mathLib/interface/main.qml
 
-mathLib/components/MyButton.qml: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/components/MyButton.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating mathLib/components/MyButton.qml"
-	cd /d C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator && D:\CL\cmake\bin\cmake.exe -E copy C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/components/MyButton.qml C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/mathLib/components/MyButton.qml
+mathLib/components/MyButton.qml: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/components/MyButton.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating mathLib/components/MyButton.qml"
+	cd /d C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator && C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/components/MyButton.qml C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/mathLib/components/MyButton.qml
 
 QMath_tooling: mathLib/components/MyButton.qml
 QMath_tooling: mathLib/interface/main.qml
@@ -87,6 +87,6 @@ CMakeFiles/QMath_tooling.dir/clean:
 .PHONY : CMakeFiles/QMath_tooling.dir/clean
 
 CMakeFiles/QMath_tooling.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles\QMath_tooling.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles\QMath_tooling.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/QMath_tooling.dir/depend
 

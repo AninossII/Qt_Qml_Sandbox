@@ -21,14 +21,5 @@ Rectangle {
             font.bold : true
         }
 
-        MouseArea {
-            anchors.fill: parent
-            hoverEnabled: false
-            onEntered: {}
-            onExited: {}
-            onWheel: {}
-            onClicked: {
-                console.log("Clicked!")
-            }
-        }
+
     }

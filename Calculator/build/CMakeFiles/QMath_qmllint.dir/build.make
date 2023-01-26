@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\CL\cmake\bin\cmake.exe
+CMAKE_COMMAND = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\CL\cmake\bin\cmake.exe -E rm -f
+RM = C:\CL\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator
+CMAKE_SOURCE_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build
+CMAKE_BINARY_DIR = C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build
 
 # Utility rule file for QMath_qmllint.
 
@@ -65,10 +65,10 @@ include CMakeFiles/QMath_qmllint.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/QMath_qmllint.dir/progress.make
 
-CMakeFiles/QMath_qmllint: D:/CL/Qt/6.4.2/mingw_64/bin/qmllint.exe
-CMakeFiles/QMath_qmllint: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/interface/main.qml
-CMakeFiles/QMath_qmllint: C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/components/MyButton.qml
-	cd /d C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator && call C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\.qt\bin\qt_setup_tool_path.bat D:/CL/Qt/6.4.2/mingw_64/bin/qmllint.exe --bare -I C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build -I D:/CL/Qt/6.4.2/mingw_64/./qml --resource C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc --resource C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/interface/main.qml C:/Users/Aninoss/Documents/Programming/Qt/Sandbox/Calculator/components/MyButton.qml
+CMakeFiles/QMath_qmllint: C:/CL/Qt/6.4.1/mingw_64/bin/qmllint.exe
+CMakeFiles/QMath_qmllint: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/interface/main.qml
+CMakeFiles/QMath_qmllint: C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/components/MyButton.qml
+	cd /d C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator && call C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\.qt\bin\qt_setup_tool_path.bat C:/CL/Qt/6.4.1/mingw_64/bin/qmllint.exe --bare -I C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build -I C:/CL/Qt/6.4.1/mingw_64/./qml --resource C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/qmake_mathLib.qrc --resource C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/build/.rcc/QMath_raw_qml_0.qrc C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/interface/main.qml C:/Users/Legion/Documents/Programming/Qt_Qml_Sandbox/Calculator/components/MyButton.qml
 
 QMath_qmllint: CMakeFiles/QMath_qmllint
 QMath_qmllint: CMakeFiles/QMath_qmllint.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/QMath_qmllint.dir/clean:
 .PHONY : CMakeFiles/QMath_qmllint.dir/clean
 
 CMakeFiles/QMath_qmllint.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build C:\Users\Aninoss\Documents\Programming\Qt\Sandbox\Calculator\build\CMakeFiles\QMath_qmllint.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build C:\Users\Legion\Documents\Programming\Qt_Qml_Sandbox\Calculator\build\CMakeFiles\QMath_qmllint.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/QMath_qmllint.dir/depend
 
